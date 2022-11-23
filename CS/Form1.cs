@@ -272,7 +272,7 @@ namespace docGettingStarted {
             graph.BackColor = Color.Transparent;
 
             // Set the rectangle for drawing.
-            RectangleF r = new RectangleF(0, 0, 0, graph.Font.Height);
+            RectangleF r = new RectangleF(0, 0, 0, ((Font)graph.Font).Height);
 
             // Add a page info brick without borders that displays
             // the current page number from the total number of pages.

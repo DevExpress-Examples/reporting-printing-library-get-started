@@ -328,7 +328,7 @@ Namespace docGettingStarted
             graph.BackColor = Color.Transparent
 
             ' Set the rectangle for drawing.
-            Dim r As RectangleF = New RectangleF(0, 0, 0, graph.Font.Height)
+            Dim r As RectangleF = New RectangleF(0, 0, 0, CType(graph.Font, Font).Height)
 
             ' Add a page info brick without borders that displays
             ' the current page number from the total number of pages.
